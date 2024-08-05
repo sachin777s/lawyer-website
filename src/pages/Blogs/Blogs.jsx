@@ -1,7 +1,10 @@
 import React from 'react'
+import PageHeading from '../../components/PageHeading'
 
 export default function Blogs() {
   return (
-    <div>Blog</div>
+    <>
+     <PageHeading text={"Blogs"} />
+    </>
   )
 }
