@@ -1,0 +1,54 @@
+[
+    {
+        "id": 1,
+        "title": "Understanding Indian Contract Law",
+        "author": "Adv. Anil Kumar",
+        "date": "2024-08-01",
+        "content": "Indian Contract Law is governed by the Indian Contract Act, 1872. It covers various aspects including the formation, execution, and enforceability of contracts. In this blog, we will delve into the key principles and case laws that shape this area of law.",
+        "tags": [
+            "Contract Law",
+            "Indian Law",
+            "Legal Advice"
+        ],
+        "imgUrl":"https://cdn.pixabay.com/photo/2018/03/03/20/02/laptop-3196481_640.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Recent Amendments in Criminal Law",
+        "author": "Adv. Priya Singh",
+        "date": "2024-07-15",
+        "content": "Criminal law in India has seen significant changes in recent times. This blog covers the latest amendments, their implications, and the reactions from the legal community. Stay informed about the evolving landscape of criminal justice in India.",
+        "tags": [
+            "Criminal Law",
+            "Legal Updates",
+            "Indian Penal Code"
+        ],
+        "imgUrl":"https://cdn.pixabay.com/photo/2018/03/04/15/32/offense-3198312_640.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Family Law: Divorce Procedures in India",
+        "author": "Adv. Neha Sharma",
+        "date": "2024-06-30",
+        "content": "Navigating through a divorce can be a challenging process. This blog provides a comprehensive guide to the divorce procedures in India, including the grounds for divorce, required documentation, and the legal process involved.",
+        "tags": [
+            "Family Law",
+            "Divorce",
+            "Legal Guide"
+        ],
+        "imgUrl":"https://cdn.pixabay.com/photo/2024/04/06/18/01/ai-generated-8679755_640.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Intellectual Property Rights in India",
+        "author": "Adv. Rakesh Gupta",
+        "date": "2024-05-20",
+        "content": "Intellectual Property Rights (IPR) are crucial for protecting the creations of the mind, such as inventions, literary and artistic works, designs, and symbols. This blog explores the types of IPR, their importance, and the legal framework for their protection in India.",
+        "tags": [
+            "Intellectual Property",
+            "IPR",
+            "Indian Law"
+        ],
+        "imgUrl":"https://cdn.pixabay.com/photo/2024/06/14/19/14/house-8830418_640.jpg"
+    }
+]
