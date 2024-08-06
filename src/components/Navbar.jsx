@@ -9,7 +9,7 @@ export default function Navbar() {
   const [isNavbarOpen, setisNavbarOpen] = useState(false);
 
   return (
-    <header className='w-full h-[90px] bg-[rgb(244_244_255)] shadow-md'>
+    <header className='w-full h-[90px] fixed bg-[rgb(244_244_255)] shadow-md'>
       <nav className='mx-auto max-w-[1680px] h-full flex items-center justify-between px-2 md:px-4'>
 
         <NavLink
@@ -17,8 +17,8 @@ export default function Navbar() {
           to={"/"}
         >
           <img
-            className='h-[70%]'
-            src={Logo}
+            className='h-[180%]'
+            src='/images/pngtree-lawyer-logo-template.png'
             alt=""
           />
         </NavLink>

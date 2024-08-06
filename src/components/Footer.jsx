@@ -15,7 +15,7 @@ export default function Footer() {
       <div className='mx-auto max-w-[1610px]'>
         <div className="pb-6 flex items-center justify-between flex-col lg:flex-row gap-12 lg:gap-0">
           <div className="w-11/12 lg:w-2/6">
-            <img className='h-[60px]' src={Logo} alt="" />
+            <img className='h-[180px]' src='/images/pngtree-lawyer-logo-template.png' alt="" />
             <p className='mt-2'>
               I am a cardiology clinical physician with Cath-Lab experience in Interventional Cardiology, have published research papers, and am familiar with EUMDR, FDA, ISO, and NPMA regulations.
             </p>

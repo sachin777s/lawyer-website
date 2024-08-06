@@ -1,9 +1,22 @@
 import React from 'react'
+import Button from '../../components/assets/Button'
+import HeroSection from './HeroSection'
+import { Introducation } from './Introducation'
+import { Advwork } from './Advwork'
+import { Advbackimage } from './Advbackimage'
+import { Skilladv } from './Skilladv'
+import { Advform } from './Advform'
+
 
 export default function Home() {
   return (
-    <main>
-      <h1>HOme</h1>
-    </main>
+    <>
+      <HeroSection />
+      <Introducation />
+      <Advwork />
+      <Advbackimage />
+      <Skilladv />
+      <Advform/>
+    </>
   )
 }

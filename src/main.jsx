@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import "./index.css";
 import Layout from "./Layout";
-import Home from "./pages/Home./Home";
+import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Gallery from "./pages/Gallery/Gallery";
 import Videos from "./pages/Videos/Videos";
