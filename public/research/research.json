@@ -1,0 +1,58 @@
+[
+    {
+      "id": 1,
+      "title": "Legal Implications of Artificial Intelligence",
+      "description": "A comprehensive analysis of the legal challenges and considerations in the deployment of artificial intelligence.",
+      "imgUrl": "https://cdn.pixabay.com/photo/2015/08/31/08/37/display-dummy-915135_640.jpg",
+      "date": "2024-08-01",
+      "author": "John Doe",
+      "tags": ["AI", "Technology", "Law"],
+      "link": "https://example.com/research/ai-legal",
+      "content": "The rise of artificial intelligence (AI) presents numerous legal challenges..."
+    },
+    {
+      "id": 2,
+      "title": "Cybersecurity Law and Policy",
+      "description": "An in-depth study of cybersecurity laws and policies across different jurisdictions.",
+      "imgUrl": "https://cdn.pixabay.com/photo/2023/07/19/06/19/ai-generated-8136172_640.png",
+      "date": "2024-07-15",
+      "author": "Jane Smith",
+      "tags": ["Cybersecurity", "Policy", "Law"],
+      "link": "https://example.com/research/cybersecurity-law",
+      "content": "Cybersecurity is a critical area of concern for governments and organizations..."
+    },
+    {
+      "id": 3,
+      "title": "Environmental Law: Recent Developments",
+      "description": "An overview of recent developments and changes in environmental law.",
+      "imgUrl": "https://cdn.pixabay.com/photo/2015/06/08/18/37/hammer-802298_1280.jpg",
+      "date": "2024-06-20",
+      "author": "Alice Johnson",
+      "tags": ["Environmental Law", "Policy", "Sustainability"],
+      "link": "https://example.com/research/environmental-law",
+      "content": "Environmental law has seen significant changes in recent years, with new regulations..."
+    },
+    {
+      "id": 4,
+      "title": "International Trade Law in the Modern Era",
+      "description": "Exploring the complexities of international trade law in today's global economy.",
+      "imgUrl": "https://cdn.pixabay.com/photo/2020/03/12/19/36/the-legal-4926021_640.jpg",
+      "date": "2024-05-10",
+      "author": "Robert Brown",
+      "tags": ["International Law", "Trade", "Economy"],
+      "link": "https://example.com/research/trade-law",
+      "content": "International trade law is evolving to keep pace with the changing global economy..."
+    },
+    {
+      "id": 5,
+      "title": "Intellectual Property Rights in the Digital Age",
+      "description": "A detailed examination of intellectual property rights and their enforcement in the digital era.",
+      "imgUrl": "https://cdn.pixabay.com/photo/2017/04/10/22/28/residence-2219972_640.jpg",
+      "date": "2024-04-05",
+      "author": "Emily White",
+      "tags": ["Intellectual Property", "Digital", "Law"],
+      "link": "https://example.com/research/ip-law",
+      "content": "The digital age has transformed the landscape of intellectual property rights, raising new issues..."
+    }
+  ]
+  

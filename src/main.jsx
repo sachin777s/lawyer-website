@@ -11,9 +11,9 @@ import About from "./pages/About/About";
 import Gallery from "./pages/Gallery/Gallery";
 import Videos from "./pages/Videos/Videos";
 import Research from "./pages/Research/Reserach";
-import Consultations from "./pages/Consultations/Consultations";
 import Blogs from "./pages/Blogs/Blogs";
 import BlogDetails from "./pages/BlogDetails/BlogDetails";
+import ResearchDetails from "./pages/ResearchDetails/ResearchDetails";
 
 const router = createBrowserRouter([
   {
@@ -42,8 +42,8 @@ const router = createBrowserRouter([
         element: <Research />
       },
       {
-        path: "/consultations",
-        element: <Consultations />
+        path: "/research-details/:id",
+        element: <ResearchDetails/>
       },
       {
         path: "/blogs",
