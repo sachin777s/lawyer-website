@@ -12,7 +12,7 @@ import { IoLogoInstagram } from "react-icons/io"
 export default function Footer() {
   return (
     <footer className='px-2 py-4 md:px-4 w-full bg-[var(--main-color)] text-white'>
-      <div className='mx-auto max-w-[1610px]'>
+      <div className='mx-auto max-w-[1680px]'>
         <div className="pb-6 flex items-center justify-between flex-col lg:flex-row gap-12 lg:gap-0">
           <div className="w-11/12 lg:w-2/6">
             <img className='h-[180px]' src='/images/pngtree-lawyer-logo-template.png' alt="" />

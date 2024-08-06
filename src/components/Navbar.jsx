@@ -9,9 +9,8 @@ export default function Navbar() {
   const [isNavbarOpen, setisNavbarOpen] = useState(false);
 
   return (
-    <header className='w-full h-[90px] fixed bg-[rgb(244_244_255)] shadow-md'>
-      <nav className='mx-auto max-w-[1680px] h-full flex items-center justify-between px-2 md:px-4'>
-
+    <header className='z-50 w-full h-[90px] fixed bg-[rgb(244_244_255)] shadow-md'>
+      <nav className='mx-auto max-w-[1720px] h-full flex items-center justify-between px-2 md:px-4'>
         <NavLink
           className="h-full flex items-center origin-left scale-75 md:scale-100"
           to={"/"}
