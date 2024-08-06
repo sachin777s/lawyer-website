@@ -47,14 +47,14 @@ export const Advform = () => {
                             </div>
                             <div className="col-md-4">
                                 <h1 className='fs-3 mt-5'>Guangxi China.</h1>
-                                <span><i className="bi bi-geo-alt-fill fs-5 mt-4"></i></span>
+                                <span><i className="bi bi-geo-alt-fill fs-5 mt-5"></i></span>
                                 <hr />
                                 <p className='me-4'>Address: House 201, Ronghua Apartment, kunbin lane, Santang Town, Xingning District, Nanning, Guangxi, China.</p>
                                 <hr />
-                                <span><i className="bi bi-telephone-fill fs-5 mt-4"></i></span>
+                                <span><i className="bi bi-telephone-fill fs-5 mt-5"></i></span>
                                 <p>Phone: (+86 ) 156 7673 6338</p>
                                 <hr />
-                                <span><i class="bi bi-envelope-at-fill fs-4 mt-4"></i></span>
+                                <span><i class="bi bi-envelope-at-fill fs-4 mt-5"></i></span>
                                 <p>Email: consult@drsiamalmobarakcardio.com</p>
                             </div>
                         </div>

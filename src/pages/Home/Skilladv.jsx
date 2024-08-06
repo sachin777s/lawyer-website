@@ -13,8 +13,8 @@ export const Skilladv = () => {
                     <div className="col-md-4 mt-5">
                         <div className="transform rounded-xl h-100 w-100 sm:h-64 sm:w-64 bg-white shadow-xl transition duration-300 hover:translate-x-4">
                             <div className="flex h-full">
-                                <span><img src="/images/lawyer.png" className='ms-3' alt="" /></span>
-                                <h1 className='ms-4 me-4'><span className='fs-4 fw-bold'>Academic: </span>A skilled medical science instructor with an "Easy Clinical Learning" strategy for complex medical topics to the clinical learners.</h1>
+                                <span><img src="/images/lawyer.png" className='ms-3 mt-5' alt="lawyer" /></span>
+                                <h1 className='ms-4 me-4 mt-5'><span className='fs-4 fw-bold mt-5'>Academic: </span>A skilled medical science instructor with an "Easy Clinical Learning" strategy for complex medical topics to the clinical learners.</h1>
                             </div>
                         </div>
                     </div>
