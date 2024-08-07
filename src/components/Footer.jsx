@@ -2,7 +2,6 @@ import React from 'react'
 import { ImLocation2 } from "react-icons/im"
 import { IoLogoFacebook, IoMdCall, IoMdSend, } from "react-icons/io"
 import { MdMail } from "react-icons/md"
-import Logo from "../assets/logo.png"
 import { NavLink } from 'react-router-dom'
 import { BsTwitterX } from "react-icons/bs";
 import { FaLinkedin, FaPinterest, FaYoutube } from "react-icons/fa";
@@ -11,7 +10,7 @@ import { IoLogoInstagram } from "react-icons/io"
 
 export default function Footer() {
   return (
-    <footer className='px-2 py-4 md:px-4 w-full bg-[var(--main-color)] text-white'>
+    <footer className='px-4 py-4 md:px-6 w-full bg-[var(--main-color)] text-white'>
       <div className='mx-auto max-w-[1680px]'>
         <div className="pb-6 flex items-center justify-between flex-col lg:flex-row gap-12 lg:gap-0">
           <div className="w-11/12 lg:w-2/6">
@@ -38,7 +37,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="w-11/12 lg:w-[1/5]">
+          <div className="w-11/12 lg:w-1/5">
             <h4 className='text-2xl'>Usefull Links</h4>
             <div className='mt-4'>
               <ul className="flex flex-col gap-1">
@@ -90,7 +89,7 @@ export default function Footer() {
             <div className=''>
               <h4 className='text-2xl'>NEWSLETTER</h4>
               <span className='opacity-80'>Subscribe to our newsletter!</span>
-              <div className='mt-4 flex items-center justify-center bg-white'>
+              <div className='mt-4 pr-2 flex items-center justify-center bg-white rounded-md overflow-hidden'>
                 <input
                   className='w-full px-4 py-1 text-xl text-[var(--main-color)] border-none outline-none'
                   type="text"
@@ -125,22 +124,22 @@ export default function Footer() {
           </span>
           <div className="flex items-center gap-4">
             <a href="#">
-              <IoLogoFacebook size={32}/>
+              <IoLogoFacebook size={32} />
             </a>
             <a href="#">
-              <BsTwitterX size={32}/>
+              <BsTwitterX size={32} />
             </a>
             <a href="#">
-              <FaLinkedin size={32}/>
+              <FaLinkedin size={32} />
             </a>
             <a href="#">
-              <IoLogoInstagram size={32}/>
+              <IoLogoInstagram size={32} />
             </a>
             <a href="#">
-              <FaPinterest size={32}/>
+              <FaPinterest size={32} />
             </a>
             <a href="#">
-              <FaYoutube size={32}/>
+              <FaYoutube size={32} />
             </a>
           </div>
         </div>

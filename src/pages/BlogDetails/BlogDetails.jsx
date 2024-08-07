@@ -22,7 +22,7 @@ export default function BlogDetails() {
             <div className='py-2 border-b cursor-pointer'>
                 <NavLink
                     to={"/"}
-                    className="flex items-center gap-1"
+                    className="pl-6 flex items-center gap-1"
                 >
                     <NavLink to={"/"}>Home</NavLink>
                     <span>&gt;</span>
