@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from '../../components/assets/Button'
 
-export const Interesting = () => {
+export default function Interesting(){
 
     const cards = [
         {
@@ -54,14 +54,13 @@ export const Interesting = () => {
 
         }
     ]
-
+    
     return (
-        <section className='px-2 md:px-4 lg:px-8 xl:px-12 2xl:px-16 grid grid-cols-4 gap-10 ms-3'>
+        <section className='px-2 md:px-4 lg:px-8 xl:px-12 2xl:px-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 ms-3'>
             {
                 cards.map((card, i) => {
                     return (
-                        <div className="container">
-                            <div class="card border-0 rounded-0" style={{ width: '18rem', height:"400px", backgroundColor: '#f0ebeb' }}>
+                            <div class="card border-0 rounded-0" style={{ backgroundColor: '#f0ebeb' }}>
                                 <h1 className='fs-1 mt-4 ms-4 fw-bold'>{card.number}</h1>
                                 <img style={{ margin: '0 auto' }} src={card.img} className="card-img-top w-50 mt-4" alt="..." />
                                 <div class="card-body">
@@ -69,7 +68,6 @@ export const Interesting = () => {
                                     <p class="card-text fs-5 text-center">{card.text}</p>
                                 </div>
                             </div>
-                        </div>
                     )
                 })
             }

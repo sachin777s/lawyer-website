@@ -66,58 +66,85 @@ export const Skilladv = () => {
                 <div className="mt-5 fs-4 fw-bold">
                     <h1>Language Skills:</h1>
                 </div>
-                <div className="row" style={{margin: '150px'}}>
-                    <div className="col-md-4">
-                        <div className="transform  rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-xl transition duration-300 hover:scale-105">
-                            <div className="flex h-full justify-center items-center">
-                                <img src="/images/download.png" className='ms-3' style={{height: '50px'}} alt="" />
-                                <h1 className='ms-4 me-4'><span className='fs-4'>Bengali: </span>Mother Tongue</h1>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div className="col-md-4">
-                        <div className="transform  rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-xl transition duration-300 hover:scale-105">
-                        <div className="flex h-full justify-center items-center">
-                                <img src="/images/download.png" className='ms-3' style={{height: '50px'}} alt="" />
-                                <h1 className='ms-4 me-4'><span className='fs-4'>Chinese: </span>Working Proficiency</h1>
+                <div className="row">
+                    <div className="col-md-4 mt-5">
+                        <div className="card pb-4 border-0" style={{backgroundColor: '#e0dddd'}}>
+                            <h1 className='fs-3 ms-4 mt-4'>Bengali</h1>
+                            <div className="row">
+                                <div className="col-md-4">
+                                    <img src="/images/download.png" className='w-20 mt-4 ms-4 brightness-0' alt="" />
+                                </div>
+                                <div className="col-md-8 mt-5">
+                                       <h1 className='fs-5'>Mother Tongue</h1> 
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4">
-                        <div className="transform  rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-xl transition duration-300 hover:scale-105">
-                        <div className="flex h-full justify-center items-center">
-                                <img src="/images/download.png" className='ms-3' style={{height: '50px'}} alt="" />
-                                <h1 className='ms-4 me-4'><span className='fs-4'>English: </span>Working Proficiency</h1>
+                    <div className="col-md-4 mt-5">
+                    <div className="card pb-4 border-0" style={{backgroundColor: '#e0dddd'}}>
+                            <h1 className='fs-3 ms-4 mt-4'>Bengali</h1>
+                            <div className="row">
+                                <div className="col-md-4">
+                                    <img src="/images/download.png" className='w-20 mt-4 ms-4 brightness-0' alt="" />
+                                </div>
+                                <div className="col-md-8 mt-5">
+                                       <h1 className='fs-5'>Mother Tongue</h1> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-4 mt-5">
+                    <div className="card pb-4 border-0" style={{backgroundColor: '#e0dddd'}}>
+                            <h1 className='fs-3 ms-4 mt-4'>Bengali</h1>
+                            <div className="row">
+                                <div className="col-md-4">
+                                    <img src="/images/download.png" className='w-20 mt-4 ms-4 brightness-0' alt="" />
+                                </div>
+                                <div className="col-md-8 mt-5">
+                                       <h1 className='fs-5'>Mother Tongue</h1> 
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div className="row" style={{margin: '150px'}}>
-                    <div className="col-md-4">
-                        <div className="transform  rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-xl transition duration-300 hover:scale-105">
-                            <div className="flex h-full justify-center items-center">
-                                <img src="/images/download.png" className='ms-3' style={{height: '50px'}} alt="" />
-                                <h1 className='ms-4 me-4'><span className='fs-4'>Hindi: </span>Communication Proficiency</h1>
+                <div className="row mb-5">
+                    <div className="col-md-4 mt-5">
+                        <div className="card pb-4 border-0" style={{backgroundColor: '#e0dddd'}}>
+                            <h1 className='fs-3 ms-4 mt-4'>Bengali</h1>
+                            <div className="row">
+                                <div className="col-md-4">
+                                    <img src="/images/download.png" className='w-20 mt-4 ms-4 brightness-0' alt="" />
+                                </div>
+                                <div className="col-md-8 mt-5">
+                                       <h1 className='fs-5'>Mother Tongue</h1> 
+                                </div>
                             </div>
                         </div>
-
                     </div>
-                    <div className="col-md-4">
-                        <div className="transform  rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-xl transition duration-300 hover:scale-105">
-                        <div className="flex h-full justify-center items-center">
-                                <img src="/images/download.png" className='ms-3' style={{height: '50px'}} alt="" />
-                                <h1 className='ms-4 me-4'><span className='fs-4'>Italian: </span>Beginner's Proficiency</h1>
+                    <div className="col-md-4 mt-5">
+                    <div className="card pb-4 border-0" style={{backgroundColor: '#e0dddd'}}>
+                            <h1 className='fs-3 ms-4 mt-4'>Bengali</h1>
+                            <div className="row">
+                                <div className="col-md-4">
+                                    <img src="/images/download.png" className='w-20 mt-4 ms-4 brightness-0' alt="" />
+                                </div>
+                                <div className="col-md-8 mt-5">
+                                       <h1 className='fs-5'>Mother Tongue</h1> 
+                                </div>
                             </div>
                         </div>
-
                     </div>
-                    <div className="col-md-4">
-                        <div className="transform  rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-xl transition duration-300 hover:scale-105">
-                        <div className="flex h-full justify-center items-center">
-                                <img src="/images/download.png" className='ms-3' style={{height: '50px'}} alt="" />
-                                <h1 className='ms-4 me-4'><span className='fs-4'>English: </span>Communication Proficiency</h1>
+                    <div className="col-md-4 mt-5">
+                    <div className="card pb-4 border-0" style={{backgroundColor: '#e0dddd'}}>
+                            <h1 className='fs-3 ms-4 mt-4'>Bengali</h1>
+                            <div className="row">
+                                <div className="col-md-4">
+                                    <img src="/images/download.png" className='w-20 mt-4 ms-4 brightness-0' alt="" />
+                                </div>
+                                <div className="col-md-8 mt-5">
+                                       <h1 className='fs-5'>Mother Tongue</h1> 
+                                </div>
                             </div>
                         </div>
                     </div>
