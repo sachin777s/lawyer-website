@@ -54,7 +54,7 @@ export default function Gallery() {
   return (
     <>
       <PageHeading text={"Gallery"} />
-      <div className='py-2 border-b cursor-pointer'>
+      <div className='pl-6 py-2 border-b cursor-pointer'>
         <NavLink
           to={"/"}
           className="flex items-center gap-1"
@@ -76,11 +76,11 @@ export default function Gallery() {
                 className='group relative overflow-hidden'
               >
                 <img
-                  className='transition-all duration-500 hover:scale-110'
+                  className=' transition-all duration-500 group-hover:scale-110'
                   src={image.img}
                   alt=""
                 />
-                <div className='opacity-0 transition-all duration-300 group-hover:opacity-100 p-2 w-full text-white absolute bottom-0 left-0 backdrop-brightness-[0.35]'>
+                <div className='translate-y-full transition-all duration-300 p-2 group-hover:translate-y-0 w-full text-white absolute bottom-0 left-0 backdrop-brightness-[0.35]'>
                   <span className='text-2xl'>{image.title.slice(0, 20)}...</span>
                 </div>
               </div>

@@ -7,6 +7,7 @@ export default function Card({ research }) {
             <div
                 class="relative h-56 mx-4 mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
                 <img
+                    className='h-full'
                     src={research.imgUrl}
                     alt="card-image"
                 />

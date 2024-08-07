@@ -23,7 +23,7 @@ export default function Videos() {
   return (
     <>
       <PageHeading text={"Gallery"} />
-      <div className='py-2 border-b cursor-pointer'>
+      <div className='pl-6 py-2 border-b cursor-pointer'>
         <NavLink
           to={"/"}
           className="flex items-center gap-1"
