@@ -14,6 +14,7 @@ import Research from "./pages/Research/Reserach";
 import Blogs from "./pages/Blogs/Blogs";
 import BlogDetails from "./pages/BlogDetails/BlogDetails";
 import ResearchDetails from "./pages/ResearchDetails/ResearchDetails";
+import Appointment from "./pages/Appointment/Appointment";
 
 const router = createBrowserRouter([
   {
@@ -43,7 +44,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/research-details/:id",
-        element: <ResearchDetails/>
+        element: <ResearchDetails />
       },
       {
         path: "/blogs",
@@ -52,6 +53,10 @@ const router = createBrowserRouter([
       {
         path: "/blog-details/:id",
         element: <BlogDetails />
+      },
+      {
+        path: "/appointment",
+        element: <Appointment />
       }
     ]
   },
