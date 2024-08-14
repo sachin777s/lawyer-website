@@ -7,12 +7,26 @@ import Card from './Card';
 export default function Blogs() {
 
   const [blogs, setBlogs] = useState([]);
+  const [searchedBlogs, setSearchedBlogs] = useState([]);
 
+  const [searchQuery, setSearchQuery] = useState("");
+
+  //For search query
+  useEffect(() => {
+    const searchedBlogs = blogs.filter((blog) => {
+      const title = blog.title.toLowerCase();
+      return title.includes(searchQuery.toLowerCase());
+    })
+    setSearchedBlogs(searchedBlogs);
+  }, [searchQuery]);
+
+  // for fetching blogs fron json file
   useEffect(() => {
     ; (async () => {
       const response = await fetch("/blogs/blogs.json");
       const data = await response.json();
       setBlogs(data);
+      setSearchedBlogs(data);
     })();
   }, [])
 
@@ -33,6 +47,8 @@ export default function Blogs() {
       <div className='mt-16 w-full flex items-center justify-center'>
         <div className="w-full max-w-[38rem] h-full flex rounded-full overflow-hidden border border-[var(--main-color)]">
           <input
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
             className='w-[90%] h-full px-4 py-1 text-xl border-none outline-none'
             type="text"
           />
@@ -45,11 +61,13 @@ export default function Blogs() {
       <section className='my-12 w-full'>
         <div className='px-0 md:px-4 lg:px-8 xl:px-12 2xl:px-16 flex justify-center flex-wrap gap-4'>
           {
-            blogs.map((blog, i) => {
-              return (
-                <Card key={i} blog={blog} />
-              )
-            })
+            searchedBlogs !== 0 ?
+              searchedBlogs.map((blog, i) => {
+                return (
+                  <Card key={i} blog={blog} />
+                )
+              })
+              : <h1 className='text-3xl font-semibold'>...Oops! No Search Matched</h1>
           }
         </div>
       </section>
