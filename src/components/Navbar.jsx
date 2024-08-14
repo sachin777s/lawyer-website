@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Logo from "../assets/logo.png"
 import Button from './assets/Button';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 
 export default function Navbar() {
@@ -87,8 +87,10 @@ export default function Navbar() {
           >
             <span className="mr-1">Blogs</span>
           </NavLink>
-          
-          <Button className={"ml-0 mt-6 lg:ml-3 lg:mt-0"}>APPOINTMENT</Button>
+
+          <Link to={"/appointment"}>
+            <Button className={"ml-0 mt-6 lg:ml-3 lg:mt-0"}>APPOINTMENT</Button>
+          </Link>
         </div>
 
         {/* Hamburger */}
