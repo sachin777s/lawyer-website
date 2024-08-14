@@ -13,8 +13,7 @@ export default function Navbar() {
       <nav className='mx-auto max-w-[1720px] h-full flex items-center justify-between px-2 md:px-4'>
         <NavLink
           className="h-full flex items-center origin-left scale-75 md:scale-100"
-          to={"/"}
-        >
+          to={"/"}>
           <img
             className='h-[180%]'
             src='/images/pngtree-lawyer-logo-template.png'

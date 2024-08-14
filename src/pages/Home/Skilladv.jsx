@@ -68,40 +68,40 @@ export const Skilladv = () => {
                 </div>
                 <div className="row">
                     <div className="col-md-4 mt-5">
-                        <div className="card pb-4 border-0" style={{backgroundColor: '#e0dddd'}}>
+                        <div className="card pb-4 border-0 transition-all duration-500 hover:scale-110 hover:shadow-[0_0_13px_-3px_black]" style={{ backgroundColor: '#e0dddd' }}>
                             <h1 className='fs-3 ms-4 mt-4'>Bengali</h1>
                             <div className="row">
                                 <div className="col-md-4">
                                     <img src="/images/download.png" className='w-20 mt-4 ms-4 brightness-0' alt="" />
                                 </div>
                                 <div className="col-md-8 mt-5">
-                                       <h1 className='fs-5'>Mother Tongue</h1> 
+                                    <h1 className='fs-5'>Mother Tongue</h1>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className="col-md-4 mt-5">
-                    <div className="card pb-4 border-0" style={{backgroundColor: '#e0dddd'}}>
+                        <div className="card pb-4 border-0 transition-all duration-500 hover:scale-110 hover:shadow-[0_0_13px_-3px_black]" style={{ backgroundColor: '#e0dddd' }}>
                             <h1 className='fs-3 ms-4 mt-4'>Bengali</h1>
                             <div className="row">
                                 <div className="col-md-4">
                                     <img src="/images/download.png" className='w-20 mt-4 ms-4 brightness-0' alt="" />
                                 </div>
                                 <div className="col-md-8 mt-5">
-                                       <h1 className='fs-5'>Mother Tongue</h1> 
+                                    <h1 className='fs-5'>Mother Tongue</h1>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className="col-md-4 mt-5">
-                    <div className="card pb-4 border-0" style={{backgroundColor: '#e0dddd'}}>
+                        <div className="card pb-4 border-0 transition-all duration-500 hover:scale-110 hover:shadow-[0_0_13px_-3px_black]" style={{ backgroundColor: '#e0dddd' }}>
                             <h1 className='fs-3 ms-4 mt-4'>Bengali</h1>
                             <div className="row">
                                 <div className="col-md-4">
                                     <img src="/images/download.png" className='w-20 mt-4 ms-4 brightness-0' alt="" />
                                 </div>
                                 <div className="col-md-8 mt-5">
-                                       <h1 className='fs-5'>Mother Tongue</h1> 
+                                    <h1 className='fs-5'>Mother Tongue</h1>
                                 </div>
                             </div>
                         </div>
@@ -110,40 +110,40 @@ export const Skilladv = () => {
 
                 <div className="row mb-5">
                     <div className="col-md-4 mt-5">
-                        <div className="card pb-4 border-0" style={{backgroundColor: '#e0dddd'}}>
+                        <div className="card pb-4 border-0 transition-all duration-500 hover:scale-110 hover:shadow-[0_0_13px_-3px_black]" style={{ backgroundColor: '#e0dddd' }}>
                             <h1 className='fs-3 ms-4 mt-4'>Bengali</h1>
                             <div className="row">
                                 <div className="col-md-4">
                                     <img src="/images/download.png" className='w-20 mt-4 ms-4 brightness-0' alt="" />
                                 </div>
                                 <div className="col-md-8 mt-5">
-                                       <h1 className='fs-5'>Mother Tongue</h1> 
+                                    <h1 className='fs-5'>Mother Tongue</h1>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className="col-md-4 mt-5">
-                    <div className="card pb-4 border-0" style={{backgroundColor: '#e0dddd'}}>
+                        <div className="card pb-4 border-0 transition-all duration-500 hover:scale-110 hover:shadow-[0_0_13px_-3px_black]" style={{ backgroundColor: '#e0dddd' }}>
                             <h1 className='fs-3 ms-4 mt-4'>Bengali</h1>
                             <div className="row">
                                 <div className="col-md-4">
                                     <img src="/images/download.png" className='w-20 mt-4 ms-4 brightness-0' alt="" />
                                 </div>
                                 <div className="col-md-8 mt-5">
-                                       <h1 className='fs-5'>Mother Tongue</h1> 
+                                    <h1 className='fs-5'>Mother Tongue</h1>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className="col-md-4 mt-5">
-                    <div className="card pb-4 border-0" style={{backgroundColor: '#e0dddd'}}>
+                        <div className="card pb-4 border-0 transition-all duration-500 hover:scale-110 hover:shadow-[0_0_13px_-3px_black]" style={{ backgroundColor: '#e0dddd' }}>
                             <h1 className='fs-3 ms-4 mt-4'>Bengali</h1>
                             <div className="row">
-                                <div className="col-md-4">
+                                <div className="col-md-4 overflow-hidden">
                                     <img src="/images/download.png" className='w-20 mt-4 ms-4 brightness-0' alt="" />
                                 </div>
                                 <div className="col-md-8 mt-5">
-                                       <h1 className='fs-5'>Mother Tongue</h1> 
+                                    <h1 className='fs-5'>Mother Tongue</h1>
                                 </div>
                             </div>
                         </div>

@@ -7,12 +7,10 @@ import { Advbackimage } from './Advbackimage'
 import { Skilladv } from './Skilladv'
 import { Advform } from './Advform'
 import Interesting from '../About/Interesting'
-
-
 export default function Home() {
   return (
     <>
-      <HeroSection />
+      <HeroSection /> 
       <Introducation />
       <Advwork />
       <Advbackimage />

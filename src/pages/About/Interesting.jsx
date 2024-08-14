@@ -60,7 +60,7 @@ export default function Interesting(){
             {
                 cards.map((card, i) => {
                     return (
-                            <div class="card border-0 rounded-0" style={{ backgroundColor: '#f0ebeb' }}>
+                            <div class="card border-0 rounded-0 transition-all duration-500 hover:shadow-[0_0_20px_-3px_black]" style={{ backgroundColor: '#f0ebeb' }}>
                                 <h1 className='fs-1 mt-4 ms-4 fw-bold'>{card.number}</h1>
                                 <img style={{ margin: '0 auto' }} src={card.img} className="card-img-top w-50 mt-4" alt="..." />
                                 <div class="card-body">

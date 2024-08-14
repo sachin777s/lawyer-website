@@ -2,11 +2,10 @@ import React from 'react'
 import { ImLocation2 } from "react-icons/im"
 import { IoLogoFacebook, IoMdCall, IoMdSend, } from "react-icons/io"
 import { MdMail } from "react-icons/md"
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import { BsTwitterX } from "react-icons/bs";
 import { FaLinkedin, FaPinterest, FaYoutube } from "react-icons/fa";
 import { IoLogoInstagram } from "react-icons/io"
-
 
 export default function Footer() {
   return (
@@ -14,24 +13,24 @@ export default function Footer() {
       <div className='mx-auto max-w-[1680px]'>
         <div className="pb-6 flex items-center justify-between flex-col lg:flex-row gap-12 lg:gap-0">
           <div className="w-11/12 lg:w-2/6">
-            <img className='h-[180px]' src='/images/pngtree-lawyer-logo-template.png' alt="" />
+           <Link to={'/'}><img className='h-[180px]' src='/images/pngtree-lawyer-logo-template.png' alt="" /></Link>
             <p className='mt-2'>
               I am a cardiology clinical physician with Cath-Lab experience in Interventional Cardiology, have published research papers, and am familiar with EUMDR, FDA, ISO, and NPMA regulations.
             </p>
             <div className="mt-6 flex items-center gap-1">
-              <ImLocation2 size={52} />
+              <Link to={'/'}><ImLocation2 size={32} /></Link>
               <span>
                 Address: House 201, Ronghua Apartment, kunbin lane, Santang Town, Xingning District, Nanning, Guangxi, China.
               </span>
             </div>
             <div className="mt-6 flex items-center gap-1">
-              <IoMdCall size={32} />
+            <Link to={'/'}><IoMdCall size={32} /></Link>
               <span>Phone:
                 (+86 ) 156 7673 6338
               </span>
             </div>
             <div className="mt-6 flex items-center gap-1">
-              <MdMail size={32} />
+              <Link to={'/'}><MdMail size={32} /></Link>
               <span>Email:
                 consult@drsiamalmobarakcardio.com</span>
             </div>
@@ -44,43 +43,48 @@ export default function Footer() {
                 <li>
                   <NavLink
                     className="hover:underline"
-                    to={"/about"}
+                    to={'/about'}
                   >
                     About
                   </NavLink>
                 </li>
+
                 <li>
                   <NavLink
                     className="hover:underline"
-                    to={"/about"}
+                    to={"/gallery"}
                   >
                     Gallery
                   </NavLink>
                 </li>
+
                 <li>
                   <NavLink
                     className="hover:underline"
-                    to={"/about"}
+                    to={'/videos'}
                   >
                     Videos
                   </NavLink>
                 </li>
+
                 <li>
                   <NavLink
                     className="hover:underline"
-                    to={"/about"}
+                    to={"/blogs"}
                   >
                     Blogs
                   </NavLink>
                 </li>
+
                 <li>
                   <NavLink
                     className="hover:underline"
-                    to={"/about"}
+                    to={"/research"}
                   >
                     Appointment
                   </NavLink>
                 </li>
+
               </ul>
             </div>
           </div>
@@ -116,7 +120,6 @@ export default function Footer() {
               </ul>
             </div>
           </div>
-
         </div>
         <div className="pt-4 border-t flex items-center justify-between flex-col lg:flex-row gap-6 lg:gap-0">
           <span>
